@@ -16,3 +16,12 @@
 // to install the node modules and
 // npm run dev
 // to launch your react project in your browser
+import react from "react";
+import reactdom from "react-dom";
+import App from "./App";
+
+import "./../public/styles.css"
+
+reactdom.render(
+    <App/>,document.getElementById('root')
+)
